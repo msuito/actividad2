@@ -1,19 +1,39 @@
 body{
     background-color: #343434;
-}
-
-.contenedor{
-    border:1px solid red;
-    width:auto;
-    height: 1000px;
-    background-color: #343434;
-}
-
-.menu{
-    color:white
+    font-family: sans-serif;
+    color: white;
     
 }
 
-.menu:hover{
+.contenedor{
+    width:auto;
+    height: 1000px;
+    
+}
+ .contenedormenu{
+    width: 20%;
+    height: 100%;
+    float: left;
+
+ }
+
+.textmenu{
+    color:white;
+    margin-left: 20px;
+    
+}
+
+.textmenu:hover{
     color: rgb(207, 207, 207);
+}
+
+.contenedortexto{
+    width:75%;
+    height: 25%;
+    float: left;
+}
+
+.text{
+    margin-left: 10%;
+    margin-right: 10%;
 }
